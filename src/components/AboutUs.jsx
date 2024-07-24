@@ -8,7 +8,7 @@ import putri from "@/assets/images/profile-picture/putri.jpg";
 import maul from "@/assets/images/profile-picture/maul.jpg";
 import saput from "@/assets/images/profile-picture/saput.jpg";
 import harry from "@/assets/images/profile-picture/harry.jpg";
-import resti from "@/assets/images/profile-picture/resti.jpg";
+import eci from "@/assets/images/profile-picture/eci.jpg";
 import faisal from "@/assets/images/profile-picture/faisal.jpg";
 import sely from "@/assets/images/profile-picture/sely.jpg";
 
@@ -75,7 +75,7 @@ export default function AboutUs() {
           usernameIG={"/"}
         />
         <AboutUsCard
-          imgSrc={resti}
+          imgSrc={eci}
           jabatan={"Sie Pubdok"}
           nama={"Resty Feliza"}
           fakultas={"FISIP"}
