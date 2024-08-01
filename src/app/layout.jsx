@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={`overflow-x-hidden ${dosis.className}`}>{children}</body>
+      <body className={`overflow-x-hidden w-full ${dosis.className}`}>{children}</body>
     </html>
   );
 }

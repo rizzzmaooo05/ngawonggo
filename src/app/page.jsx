@@ -7,8 +7,8 @@ import Contacts from "@/components/Contacts";
 export default function Home() {
   return (
     <>
-      <Navbar />
-      {/* <Main /> */}
+      {/* <Navbar /> */}
+      <Main />
       {/* <Articles /> */}
       {/* <AboutUs /> */}
       {/* <Contacts/> */}
