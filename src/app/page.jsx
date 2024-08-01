@@ -7,11 +7,11 @@ import Contacts from "@/components/Contacts";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
-      <Main />
-      <Articles />
-      <AboutUs />
-      <Contacts/>
+      <Navbar />
+      {/* <Main /> */}
+      {/* <Articles /> */}
+      {/* <AboutUs /> */}
+      {/* <Contacts/> */}
     </>
   );
 }
