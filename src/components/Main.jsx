@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function Main() {
   return (
-    <main className="bg-[#222937] h-[calc(100vh-150px)] md:h-[calc(100vh-100px)] flex justify-center items-center relative">
+    <main className="bg-[#222937] h-[calc(100vh-150px)] md:h-[calc(100vh-100px)] flex justify-center items-center relative w-full">
       <Image src={bg} className='md:visible invisible w-full h-[calc(100vh-80px)] md:object-cover absolute' />
       <div className='w-[65%] md:relative  flex justify-center items-center flex-col gap-5 md:ml-5'>
         <p className='text-2xl md:text-4xl text-center text-white'>Tingkatkan literasi sains, wujudkan masa depan cerah! Pengetahuan adalah kekuatan, sains adalah kunci kemajuan.</p>
