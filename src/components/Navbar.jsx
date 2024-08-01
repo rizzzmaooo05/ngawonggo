@@ -14,7 +14,7 @@ export default function Navbar() {
           <p className="text-sm md:text-md">Mengenal sains dengan lebih seru</p>
         </div>
       </a>
-      <ul className="flex gap-10 font-bold justify-center items-center text-center text-sm md:text-md">
+      <ul className="flex gap-5 md:gap-10 font-bold justify-center items-center text-center text-sm md:text-md">
         <a href="/" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
           <li>Beranda</li>
         </a>
