@@ -6,7 +6,7 @@ const poppins = Poppins({subsets: ['latin'], weight: "900"})
 
 export default function Navbar() {
   return (
-    <nav className="flex flex-col bg-[#222937] text-white px-10 py-4 justify-between items-center gap-2 md:flex-row h-[170px] md:h-[100px] w-full">
+    <nav className="flex flex-col bg-[#222937] text-white px-10 py-4 justify-between items-center gap-2 md:flex-row h-[170px] md:h-[100px] w-full fixed z-50">
       <a href="/" className="flex justify-center items-center gap-3">
         <Image src={imgPath} width={40} />
         <div>
@@ -21,10 +21,10 @@ export default function Navbar() {
         <a href="/#article" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
           <li>Artikel</li>
         </a>
-        <a href="/" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
+        <a href="/#about-us" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
           <li>Tentang Kami</li>
         </a>
-        <a href="/" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
+        <a href="/#contact-us" className="hover:border-b-[2px] hover:border-b-white p-4 transition-all">
           <li>Kontak Kami</li>
         </a>
       </ul>

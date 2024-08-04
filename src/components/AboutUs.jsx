@@ -14,7 +14,7 @@ import sely from "@/assets/images/profile-picture/sely.jpg";
 
 export default function AboutUs() {
   return (
-    <section className="w-full min-h-[100vh] bg-[#222937] flex flex-col justify-center items-center text-white p-4">
+    <section className="w-full min-h-[100vh] bg-[#222937] flex flex-col justify-center items-center text-white p-4" id="about-us">
       <h1 className="text-4xl font-bold">Tentang Kami</h1>
       <p className="mb-4">
         Website ini dibuat oleh Mahasiswa UNNES GIAT 9 (KKN) Desa Ngawonggo,

@@ -8,10 +8,12 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Main />
-      <Articles />
-      <AboutUs />
-      {/* <Contacts/> */}
+      <main className="relative">
+        <Main />
+        <Articles />
+        <AboutUs />
+        <Contacts />
+      </main>
     </>
   );
 }

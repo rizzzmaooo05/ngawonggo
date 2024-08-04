@@ -14,9 +14,9 @@ export default function Contacts() {
     router.push(`http://wa.me/62895801201195?text=Nama:%20${nama}%0AEmail:%20${email}%0APesan:%20${pesan}`)
   }
   return (
-    <section className="flex flex-col items-center justify-center w-full min-h-[100vh] m-4">
+    <section className="flex flex-col items-center justify-center w-full my-4 min-h-[100vh]" id="contact-us">
       <h3 className="text-4xl font-bold text-[#222937] ">Kontak Kami</h3>
-      <p className=" text-[#222937] mb-4">
+      <p className=" text-[#222937] m-4 text-wrap">
         Apabila terdapat masukkan, kritik, atau saran, silahkan hubungi kami di
         bawah ini!
       </p>
